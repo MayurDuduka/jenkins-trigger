@@ -23,10 +23,12 @@ Please see [How to get the API Token for Jenkins](https://stackoverflow.com/ques
 | wait | false | Set true as default. Waiting for job completion or not |
 | timeout | false | Set 600 seconds as default. Timeout (seconds) for github action. |
 
+#not published
+
 ### Example
 ```yaml
 - name: Trigger jenkins job
-  uses: jabbukka/jenkins-trigger@main
+  uses: MayurDuduka/jenkins-trigger/actions/trigger@main
   with:
     url: ${{ secrets.JENKINS_URL }}
     job_name: "build_web_application"
