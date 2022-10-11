@@ -23,7 +23,7 @@ Please see [How to get the API Token for Jenkins](https://stackoverflow.com/ques
 | wait | false | Set true as default. Waiting for job completion or not |
 | timeout | false | Set 600 seconds as default. Timeout (seconds) for github action. |
 
-#not published
+# not published
 
 ### Example
 ```yaml
